@@ -1,0 +1,9 @@
+test_file = open('test.txt', 'w')
+test_file.write('Hello!')
+test_file.flush()
+test_file.close()
+
+test_file = open('test.txt', 'r')
+read_file = test_file.readline()
+test_file.close()
+print(read_str) 
